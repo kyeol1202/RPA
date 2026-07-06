@@ -26,18 +26,6 @@
 
 ```
 <img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0014" src="https://github.com/user-attachments/assets/2bb40ea3-812b-413a-9e93-5ec38d749859" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0013" src="https://github.com/user-attachments/assets/30a441e0-849f-4d66-8080-a620882db426" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0012" src="https://github.com/user-attachments/assets/6436d96d-63c7-4a76-a114-2f70e2c67814" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0011" src="https://github.com/user-attachments/assets/be8fbb6b-6759-4429-8c56-a5ac431de500" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0010" src="https://github.com/user-attachments/assets/13efc989-1fbc-4668-8e92-86ba5d1b2298" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0009" src="https://github.com/user-attachments/assets/0b9e8bed-9f45-4bd9-adaa-d4cc007faaa1" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0008" src="https://github.com/user-attachments/assets/1755ba84-6d19-464f-bfa7-1a456c8daa75" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0007" src="https://github.com/user-attachments/assets/1aba7195-7caf-458d-9cac-5d567463c4db" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0006" src="https://github.com/user-attachments/assets/3df0c8e6-f46f-4725-86ac-bbc8b0faa14e" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0005" src="https://github.com/user-attachments/assets/ceb1ef0d-b042-4c9a-9a9b-eb7cea5b1875" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0004" src="https://github.com/user-attachments/assets/20fcdcbb-9eb8-4791-b0aa-9e03855cce07" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0003" src="https://github.com/user-attachments/assets/447e8649-45d8-4267-8c35-044b8a651a79" />
-<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0002" src="https://github.com/user-attachments/assets/5cfaf304-dd0c-4129-a739-775cff5f3c8e" />
 
 ```
 
