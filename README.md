@@ -22,20 +22,23 @@
 **개발 기간**: 2026.05.27 ~ 2026.05.29
 **업무 요약**: 사용자의 요청사항에 맞는 이미지를 GPT API로 생성·분석하고, 결과를 자동으로 이메일 전송하는 파이프라인 구축
 
-### 워크플로우 개요
+### 워크플로우 
 
 ```
-시작
- └─ 1. 작업 환경 설정 (경로 생성 및 Temp 파일 세팅)
-     └─ 2. 엑셀 데이터 추출 (시트별 데이터를 2차원 배열로 변수 할당)
-         └─ 3. 이미지 분석 (GPT API 호출)
-             └─ 4. 분석 내용 요약 (GPT API 재호출)
-                 └─ 5. 이미지 생성 및 저장 (GPT API + Python 실행)
-                     └─ 6. 파일 정리 (요청자 이름으로 중복 방지 리네이밍)
-                         └─ (5~6번 반복)
-                             └─ 7. 데이터 입력 (결과를 엑셀에 저장)
-                                 └─ 8. 메일 전송 (엑셀+이미지+텍스트 파일 발송)
-                                     └─ 종료
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0014" src="https://github.com/user-attachments/assets/2bb40ea3-812b-413a-9e93-5ec38d749859" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0013" src="https://github.com/user-attachments/assets/30a441e0-849f-4d66-8080-a620882db426" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0012" src="https://github.com/user-attachments/assets/6436d96d-63c7-4a76-a114-2f70e2c67814" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0011" src="https://github.com/user-attachments/assets/be8fbb6b-6759-4429-8c56-a5ac431de500" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0010" src="https://github.com/user-attachments/assets/13efc989-1fbc-4668-8e92-86ba5d1b2298" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0009" src="https://github.com/user-attachments/assets/0b9e8bed-9f45-4bd9-adaa-d4cc007faaa1" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0008" src="https://github.com/user-attachments/assets/1755ba84-6d19-464f-bfa7-1a456c8daa75" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0007" src="https://github.com/user-attachments/assets/1aba7195-7caf-458d-9cac-5d567463c4db" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0006" src="https://github.com/user-attachments/assets/3df0c8e6-f46f-4725-86ac-bbc8b0faa14e" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0005" src="https://github.com/user-attachments/assets/ceb1ef0d-b042-4c9a-9a9b-eb7cea5b1875" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0004" src="https://github.com/user-attachments/assets/20fcdcbb-9eb8-4791-b0aa-9e03855cce07" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0003" src="https://github.com/user-attachments/assets/447e8649-45d8-4267-8c35-044b8a651a79" />
+<img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0002" src="https://github.com/user-attachments/assets/5cfaf304-dd0c-4129-a739-775cff5f3c8e" />
+
 ```
 
 ### 핵심 구현 & 트러블슈팅
@@ -61,17 +64,10 @@
 **개발 기간**: 2026.06.01 ~ 2026.06.05
 **업무 요약**: 다나와 자동차 사이트에서 제조사·기간별 판매 데이터를 수집해 정제 후, 조건부 서식이 적용된 엑셀 리포트를 자동 생성
 
-### 워크플로우 개요
+### 워크플로우 
 
 ```
-시작
- └─ 1. 작업 환경 설정 (경로 생성 및 Temp 파일 세팅)
-     └─ 2. 데이터 입력 (제조사 / 기간 InputBox 입력)
-         └─ 3. 접속 및 조회 (auto.danawa.com 조회) ─┐
-             └─ 4. 데이터 추출 (연료별/총합계 데이터 정제)  │  do-while 예외처리
-                 └─ 5. 엑셀 입력 (시트 생성, 데이터/그래프 입력) │  (조회 실패 시 2번으로 복귀)
-                     └─ 6. 엑셀 서식 (조건부 서식, 테두리, 열너비 자동 맞춤) ─┘
-                         └─ 종료 (제조사+날짜명으로 저장)
+
 ```
 
 ### 핵심 구현 & 트러블슈팅
