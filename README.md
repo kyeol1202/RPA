@@ -24,10 +24,10 @@
 
 ### 워크플로우 
 
-```
+
 <img width="2000" height="1125" alt="김한결_RPA프로젝트_page-0014" src="https://github.com/user-attachments/assets/2bb40ea3-812b-413a-9e93-5ec38d749859" />
 
-```
+
 
 ### 핵심 구현 & 트러블슈팅
 
